@@ -165,6 +165,9 @@ import { Contract, providers, utils } from "ethers";
             <title>LW3Punks</title>
             <meta name="description" content="LW3Punks-Dapp" />
             <link rel="icon" href="/favicon.ico" />
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700&display=swap" rel="stylesheet" />
           </Head>
           <div className={styles.main}>
             <div>
@@ -182,7 +185,7 @@ import { Contract, providers, utils } from "ethers";
             </div>
           </div>
 
-          <footer className={styles.footer}>Made with &#10084; by LW3Punks</footer>
+          <footer className={styles.footer}>Made with &#10084; by Cadu</footer>
         </div>
       );
     }
